@@ -1,0 +1,22 @@
+
+/* LEFT JOIN */
+
+SELECT `people`.`name`,`pets`.`pet_name` FROM `people` LEFT JOIN `pets` ON `people`.`people_id`=`pets`.`people_id`
+
+/* RIGHT JOIN */
+
+SELECT `people`.`name`,`pets`.`pet_name` FROM `people` RIGHT JOIN `pets` ON `people`.`people_id`=`pets`.`people_id`
+
+/* JOIN */
+
+SELECT `people`.`name`,`pets`.`pet_name` FROM `people` JOIN `pets` ON `people`.`people_id`=`pets`.`people_id`
+
+/* DISTINCT QUERY */
+
+SELECT DISTINCT lastname FROM `users`
+
+// LIKE QUERY
+SELECT * FROM `names` WHERE `name` LIKE '%P%'
+
+// NOT LIKE QUERY
+SELECT * FROM `names` WHERE `name` NOT LIKE '%HE%'

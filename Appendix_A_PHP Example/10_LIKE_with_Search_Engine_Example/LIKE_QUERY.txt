@@ -1,0 +1,5 @@
+// LIKE QUERY
+SELECT * FROM `names` WHERE `name` LIKE '%P%'
+
+// NOT LIKE QUERY
+SELECT * FROM `names` WHERE `name` NOT LIKE '%HE%'
